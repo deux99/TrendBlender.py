@@ -7,12 +7,14 @@ Database Interaction: Inserts fetched data into an Oracle database (price_tracke
 Data Visualization: Plots historical GBP/USD prices over time using Matplotlib, including markers, labels, and formatted timestamps.
 Periodic Updates: Automates data fetching and visualization at regular intervals using schedule.
 Installation
+
 Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/your-username/trendblender.git
 cd trendblender
+
 Install dependencies:
 
 bash
@@ -22,6 +24,8 @@ Configure Oracle Database:
 
 Update user, pw, and cs variables in the script with your Oracle database credentials.
 Usage
+
+
 Run the script to start tracking and visualizing GBP/USD prices:
 
 bash
